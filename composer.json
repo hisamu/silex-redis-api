@@ -1,0 +1,19 @@
+{
+	"minimum-stability": "dev",
+
+	"require": {
+		"silex/silex": "1.*",
+		"twig/twig": "1.*",
+		"doctrine/dbal": "2.2.*",
+        "symfony/twig-bridge": "2.1.*",
+        "symfony/security": "2.1.*",
+        "symfony/browser-kit": ">=2.3,<2.4-dev",
+        "predis/service-provider": "dev-master",
+        "mockery/mockery": "dev-master@dev"
+	},
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/libs/"
+        }
+    }
+}

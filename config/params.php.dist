@@ -1,0 +1,11 @@
+<?php
+
+$params = array(
+    'mysql_host'    => 'localhost', 
+    'mysql_db'      => 'acme', 
+    'mysql_user'    => 'user', 
+    'mysql_pass'    => 'pw', 
+    'redis'         => 'tcp://127.0.0.1:6379',
+);
+
+return $params;
